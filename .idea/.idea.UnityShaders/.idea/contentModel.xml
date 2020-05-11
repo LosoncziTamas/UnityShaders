@@ -8,6 +8,9 @@
           <e p="Glass.shader" t="Include" />
           <e p="GlassController.cs" t="Include" />
         </e>
+        <e p="Water" t="Include">
+          <e p="Water.shader" t="Include" />
+        </e>
         <e p="Wave" t="Include">
           <e p="Wave.shader" t="Include" />
         </e>

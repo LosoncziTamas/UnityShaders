@@ -1,58 +1,68 @@
-﻿Shader "Unlit/Wave"
+﻿Shader "Custom/Wave"
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
+        _MainTex("Main Texture", 2D) = "white" {}
+        _Amplitude("Amplitude", Range(0, 5)) = 1
+        _Frequency("Frequency", Range(0, 5)) = 1
+        _Speed("Speed", Range(0, 10)) = 1 
+        _WaveColorStrength("Wave Color Strength", Range(0, 5)) = 2
     }
-    SubShader
+    
+    Subshader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
-
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            // make fog work
-            #pragma multi_compile_fog
-
+        CGPROGRAM
+            #pragma surface surf Lambert vertex:vert
+            
             #include "UnityCG.cginc"
-
+            
             struct appdata
             {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
+                float4 vertex: POSITION;
+                float3 normal : NORMAL;
+                // since we are using custom vertex shader we'll need to make the appdata compatible with the internal vertex shader
+                // so we'll have to use these names
+                float4 texcoord : TEXCOORD0;
+                float4 texcoord1 : TEXCOORD1;
+                float4 texcoord2 : TEXCOORD2;
             };
-
-            struct v2f
+            
+            struct Input
             {
-                float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
-                float4 vertex : SV_POSITION;
+                float2 uv_MainTex;
+                float3 color;
             };
-
+            
             sampler2D _MainTex;
-            float4 _MainTex_ST;
-
-            v2f vert (appdata v)
+            float _Amplitude;
+            float _Frequency;
+            float _Speed;
+            float _WaveColorStrength;
+            
+            
+            void vert(inout appdata v, out Input o)
             {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
-                return o;
+                // Initializes o to zero.
+                UNITY_INITIALIZE_OUTPUT(Input, o);
+                float t = _Time * _Speed;
+                float waveHeightX = sin(t + v.vertex.x * _Frequency) * _Amplitude;
+                float waveHeightZ = sin(t + v.vertex.z * _Frequency) * _Amplitude;
+                // Alter the height of the mesh with waveHeight.
+                v.vertex.y = v.vertex.y + waveHeightX + waveHeightZ; 
+                // Recalculate normals so the shadows are properly casted
+                v.normal = normalize(float3(v.normal.x + waveHeightX, v.normal.y, v.normal.z + waveHeightZ));
+                o.color = waveHeightX + waveHeightZ +_WaveColorStrength;
             }
-
-            fixed4 frag (v2f i) : SV_Target
+            
+            void surf(Input IN, inout SurfaceOutput o)
             {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
-                return col;
+                fixed4 color = tex2D(_MainTex, IN.uv_MainTex);
+                o.Albedo = color.rgb * IN.color; 
             }
-            ENDCG
-        }
+            
+        ENDCG
     }
+    
+    Fallback "Diffuse"
+
 }

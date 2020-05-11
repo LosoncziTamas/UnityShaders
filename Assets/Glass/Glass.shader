@@ -4,7 +4,7 @@
     {
         _MainTexture ("Main Texture", 2D) = "white" {}
         _BumpTexture ("Bump Texture", 2D) = "white" {}
-        _ScaleUV ("Scale UV", Range(1, 100)) = 1
+        _ScaleUV ("Scale UV", Range(1, 300)) = 1
     }
     
     Subshader
