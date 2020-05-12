@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616d3bbe-517f-4d56-81ae-28c4e578b8e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plasma.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plasma/Plasma.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plasma/Plasma.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlasmaVF.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plasma/Plasma.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" selection-start-line="44" selection-end-line="46" selection-end-column="60" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="48" selection-end-column="29" />
               <folding>
                 <marker date="1589278984008" expanded="true" signature="23:1652" ph="{...}" />
                 <marker date="1589278984008" expanded="true" signature="44:312" ph="{...}" />
@@ -49,13 +42,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="460">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
-                <marker date="1589280348377" expanded="true" signature="25:2259" ph="{...}" />
-                <marker date="1589280348377" expanded="true" signature="45:312" ph="{...}" />
-                <marker date="1589280348377" expanded="true" signature="333:2230" ph="{...}" />
-                <marker date="1589280348377" expanded="true" signature="357:2225" ph="{...}" />
+                <marker date="1589283776533" expanded="true" signature="25:2399" ph="{...}" />
+                <marker date="1589283776533" expanded="true" signature="45:312" ph="{...}" />
+                <marker date="1589283776533" expanded="true" signature="333:2370" ph="{...}" />
+                <marker date="1589283776533" expanded="true" signature="357:2365" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,6 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,12 +180,12 @@
       <workItem from="1589029232306" duration="649000" />
       <workItem from="1589120712616" duration="3041000" />
       <workItem from="1589200631583" duration="6168000" />
-      <workItem from="1589270679732" duration="7831000" />
+      <workItem from="1589270679732" duration="8940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17689000" />
+    <option name="totallyTimeSpent" value="18798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plasma/Plasma.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="46" selection-end-column="60" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="48" selection-end-column="29" />
           <folding>
             <marker date="1589278984008" expanded="true" signature="23:1652" ph="{...}" />
             <marker date="1589278984008" expanded="true" signature="44:312" ph="{...}" />
@@ -369,13 +363,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="460">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
-            <marker date="1589280348377" expanded="true" signature="25:2259" ph="{...}" />
-            <marker date="1589280348377" expanded="true" signature="45:312" ph="{...}" />
-            <marker date="1589280348377" expanded="true" signature="333:2230" ph="{...}" />
-            <marker date="1589280348377" expanded="true" signature="357:2225" ph="{...}" />
+            <marker date="1589283776533" expanded="true" signature="25:2399" ph="{...}" />
+            <marker date="1589283776533" expanded="true" signature="45:312" ph="{...}" />
+            <marker date="1589283776533" expanded="true" signature="333:2370" ph="{...}" />
+            <marker date="1589283776533" expanded="true" signature="357:2365" ph="{...}" />
           </folding>
         </state>
       </provider>
