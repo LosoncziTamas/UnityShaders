@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616d3bbe-517f-4d56-81ae-28c4e578b8e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Water.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Water/Water.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Water/Water.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Glass/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Glass/Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Glass/Glass.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Glass/Glass.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wave/Wave.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wave/Wave.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wave/Wave.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wave/Wave.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wave/WaveScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wave/WaveScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Wave/Wave.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <marker date="1589205205537" expanded="true" signature="21:2298" ph="{...}" />
                 <marker date="1589205205537" expanded="true" signature="42:307" ph="{...}" />
@@ -37,109 +28,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Ocean/Ocean.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding>
+                <marker date="1589274284672" expanded="true" signature="22:3000" ph="{...}" />
+                <marker date="1589274284672" expanded="true" signature="43:512" ph="{...}" />
+                <marker date="1589274284672" expanded="true" signature="531:2998" ph="{...}" />
+                <marker date="1589274284672" expanded="true" signature="550:2987" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Water/Water.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <marker date="1589208110594" expanded="true" signature="22:1147" ph="{...}" />
-                <marker date="1589208110594" expanded="true" signature="44:289" ph="{...}" />
-                <marker date="1589208110594" expanded="true" signature="313:1116" ph="{...}" />
-                <marker date="1589208110594" expanded="true" signature="332:1105" ph="{...}" />
+                <marker date="1589208287903" expanded="true" signature="22:1206" ph="{...}" />
+                <marker date="1589208287903" expanded="true" signature="44:289" ph="{...}" />
+                <marker date="1589208287903" expanded="true" signature="313:1175" ph="{...}" />
+                <marker date="1589208287903" expanded="true" signature="332:1164" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Water.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-              <folding>
-                <marker date="1589207399602" expanded="true" signature="22:65893" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="44:247" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="271:65862" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="283:406" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1589207399602" expanded="true" signature="454:18401" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="522:18393" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="18458:23058" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="18552:23050" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="23113:30305" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="23181:30297" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="30352:43456" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="30434:43448" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="43496:56724" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="43562:56716" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="56775:65798" ph="{...}" />
-                <marker date="1589207399602" expanded="true" signature="56844:65790" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/UnitySandbox/Sandbox/Assets/Shaders/Advanced/Wave.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <marker date="1588947655260" expanded="true" signature="23:1910" ph="{...}" />
-                <marker date="1588947655260" expanded="true" signature="44:242" ph="{...}" />
-                <marker date="1588947655260" expanded="true" signature="266:1879" ph="{...}" />
-                <marker date="1588947655260" expanded="true" signature="285:1868" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/shader_development.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="370">
-                <caret line="529" column="24" lean-forward="true" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Glass/GlassController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1589122002703" expanded="true" signature="35:551" ph="{...}" />
-                <marker date="1589122002703" expanded="true" signature="86:549" ph="{...}" />
-                <marker date="1589122002703" expanded="true" signature="159:543" ph="{...}" />
-                <marker date="1589122002703" expanded="true" signature="259:377" ph="{...}" />
-                <marker date="1589122002703" expanded="true" signature="414:533" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/590B07A0-8EBF-4FFE-9290-BF1366C3C513/38/8527bddc/Transform.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4770">
-              <caret line="323" column="16" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>_ScrollY</find>
+      <find>0</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,7 +72,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Wave/Wave.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Water/Water.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Water.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ocean/Ocean.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/590B07A0-8EBF-4FFE-9290-BF1366C3C513/38/8527bddc/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Glass/GlassController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/UnitySandbox/Sandbox/Assets/Shaders/Advanced/Wave.shader" root0="FORCE_HIGHLIGHTING" />
@@ -162,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Wave/Wave.shader" />
         <option value="$USER_HOME$/Desktop/shader_development.md" />
         <option value="$PROJECT_DIR$/Assets/Water/Water.shader" />
+        <option value="$PROJECT_DIR$/Assets/Ocean/Ocean.shader" />
       </list>
     </option>
   </component>
@@ -176,14 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -196,9 +114,35 @@
               <item name="UnityShaders" type="34e6ba20:FileSystemExplorerNode" />
               <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
             </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="UnityShaders" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Ocean" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="UnityShaders" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Water" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="UnityShaders" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Wave" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -247,12 +191,13 @@
       <updated>1589029228575</updated>
       <workItem from="1589029232306" duration="649000" />
       <workItem from="1589120712616" duration="3041000" />
-      <workItem from="1589200631583" duration="5842000" />
+      <workItem from="1589200631583" duration="6168000" />
+      <workItem from="1589270679732" duration="3590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9532000" />
+    <option name="totallyTimeSpent" value="13448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,7 +212,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2960928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -311,6 +256,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Glass/Glass.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1589123685455" expanded="true" signature="22:3512" ph="{...}" />
+            <marker date="1589123685455" expanded="true" signature="44:210" ph="{...}" />
+            <marker date="1589123685455" expanded="true" signature="234:3510" ph="{...}" />
+            <marker date="1589123685455" expanded="true" signature="330:3504" ph="{...}" />
+            <marker date="1589123685455" expanded="true" signature="353:3489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Water.shader" />
+    <entry file="file://$USER_HOME$/UnitySandbox/Sandbox/Assets/Shaders/Advanced/Wave.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <marker date="1588947655260" expanded="true" signature="44:242" ph="{...}" />
+            <marker date="1588947655260" expanded="true" signature="266:1879" ph="{...}" />
+            <marker date="1588947655260" expanded="true" signature="285:1868" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/shader_development.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7935">
+            <caret line="529" column="24" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Glass/GlassController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -339,72 +321,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Glass/Glass.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <marker date="1589123685455" expanded="true" signature="22:3512" ph="{...}" />
-            <marker date="1589123685455" expanded="true" signature="44:210" ph="{...}" />
-            <marker date="1589123685455" expanded="true" signature="234:3510" ph="{...}" />
-            <marker date="1589123685455" expanded="true" signature="330:3504" ph="{...}" />
-            <marker date="1589123685455" expanded="true" signature="353:3489" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/UnitySandbox/Sandbox/Assets/Shaders/Advanced/Wave.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <marker date="1588947655260" expanded="true" signature="23:1910" ph="{...}" />
-            <marker date="1588947655260" expanded="true" signature="44:242" ph="{...}" />
-            <marker date="1588947655260" expanded="true" signature="266:1879" ph="{...}" />
-            <marker date="1588947655260" expanded="true" signature="285:1868" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Water.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-          <folding>
-            <marker date="1589207399602" expanded="true" signature="22:65893" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="44:247" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="271:65862" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="283:406" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1589207399602" expanded="true" signature="454:18401" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="522:18393" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="18458:23058" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="18552:23050" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="23113:30305" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="23181:30297" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="30352:43456" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="30434:43448" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="43496:56724" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="43562:56716" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="56775:65798" ph="{...}" />
-            <marker date="1589207399602" expanded="true" signature="56844:65790" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/shader_development.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="370">
-            <caret line="529" column="24" lean-forward="true" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Wave/Wave.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <marker date="1589205205537" expanded="true" signature="21:2298" ph="{...}" />
             <marker date="1589205205537" expanded="true" signature="42:307" ph="{...}" />
@@ -416,13 +336,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Water/Water.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <marker date="1589208110594" expanded="true" signature="22:1147" ph="{...}" />
-            <marker date="1589208110594" expanded="true" signature="44:289" ph="{...}" />
-            <marker date="1589208110594" expanded="true" signature="313:1116" ph="{...}" />
-            <marker date="1589208110594" expanded="true" signature="332:1105" ph="{...}" />
+            <marker date="1589208287903" expanded="true" signature="22:1206" ph="{...}" />
+            <marker date="1589208287903" expanded="true" signature="44:289" ph="{...}" />
+            <marker date="1589208287903" expanded="true" signature="313:1175" ph="{...}" />
+            <marker date="1589208287903" expanded="true" signature="332:1164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Ocean/Ocean.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <marker date="1589274284672" expanded="true" signature="22:3000" ph="{...}" />
+            <marker date="1589274284672" expanded="true" signature="43:512" ph="{...}" />
+            <marker date="1589274284672" expanded="true" signature="531:2998" ph="{...}" />
+            <marker date="1589274284672" expanded="true" signature="550:2987" ph="{...}" />
           </folding>
         </state>
       </provider>
