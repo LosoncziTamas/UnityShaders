@@ -11,6 +11,12 @@
         <e p="Ocean" t="Include">
           <e p="Ocean.shader" t="Include" />
         </e>
+        <e p="Plasma" t="Include">
+          <e p="Plasma.shader" t="Include" />
+        </e>
+        <e p="PlasmaVF" t="Include">
+          <e p="PlasmaVF.shader" t="Include" />
+        </e>
         <e p="Water" t="Include">
           <e p="Water.shader" t="Include" />
         </e>
