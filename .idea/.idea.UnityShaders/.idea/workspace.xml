@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616d3bbe-517f-4d56-81ae-28c4e578b8e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityShaders/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,39 +17,24 @@
         <entry file="file://$USER_HOME$/Desktop/shader_development.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="241">
-                <caret line="638" column="90" selection-start-line="638" selection-start-column="90" selection-end-line="638" selection-end-column="90" />
+              <first_editor relative-caret-position="671">
+                <caret line="536" column="19" selection-start-line="536" selection-start-column="13" selection-end-line="536" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plasma/Plasma.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="48" selection-end-column="29" />
-              <folding>
-                <marker date="1589278984008" expanded="true" signature="23:1652" ph="{...}" />
-                <marker date="1589278984008" expanded="true" signature="44:312" ph="{...}" />
-                <marker date="1589278984008" expanded="true" signature="336:1622" ph="{...}" />
-                <marker date="1589278984008" expanded="true" signature="355:1611" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/RayMarching/RayMarching.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <state relative-caret-position="855">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <marker date="1589283776533" expanded="true" signature="25:2399" ph="{...}" />
-                <marker date="1589283776533" expanded="true" signature="45:312" ph="{...}" />
-                <marker date="1589283776533" expanded="true" signature="333:2370" ph="{...}" />
-                <marker date="1589283776533" expanded="true" signature="357:2365" ph="{...}" />
+                <marker date="1590160928280" expanded="true" signature="28:2043" ph="{...}" />
+                <marker date="1590160928280" expanded="true" signature="49:2041" ph="{...}" />
+                <marker date="1590160928280" expanded="true" signature="206:2035" ph="{...}" />
+                <marker date="1590160928280" expanded="true" signature="229:2020" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,6 +48,8 @@
       <find>_ScrollY</find>
       <find>0</find>
       <find>IN.worldPos</find>
+      <find>Blend</find>
+      <find>vertex</find>
     </findStrings>
     <replaceStrings>
       <replace>v.vertex</replace>
@@ -72,6 +60,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Wave/Wave.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/brick-breaker-ar/Assets/Materials/BrickShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RayMarching/RayMarching.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Water/Water.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ocean/Ocean.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" root0="FORCE_HIGHLIGHTING" />
@@ -90,9 +80,11 @@
         <option value="$PROJECT_DIR$/Assets/Wave/Wave.shader" />
         <option value="$PROJECT_DIR$/Assets/Water/Water.shader" />
         <option value="$PROJECT_DIR$/Assets/Ocean/Ocean.shader" />
-        <option value="$USER_HOME$/Desktop/shader_development.md" />
         <option value="$PROJECT_DIR$/Assets/Plasma/Plasma.shader" />
         <option value="$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader" />
+        <option value="$USER_HOME$/brick-breaker-ar/Assets/Materials/BrickShader.shader" />
+        <option value="$USER_HOME$/Desktop/shader_development.md" />
+        <option value="$PROJECT_DIR$/Assets/RayMarching/RayMarching.shader" />
       </list>
     </option>
   </component>
@@ -107,6 +99,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -122,14 +122,6 @@
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -180,12 +172,14 @@
       <workItem from="1589029232306" duration="649000" />
       <workItem from="1589120712616" duration="3041000" />
       <workItem from="1589200631583" duration="6168000" />
-      <workItem from="1589270679732" duration="8940000" />
+      <workItem from="1589270679732" duration="10193000" />
+      <workItem from="1589555246435" duration="447000" />
+      <workItem from="1590153976418" duration="3984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18798000" />
+    <option name="totallyTimeSpent" value="24482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,7 +194,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2960928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30341882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -325,10 +319,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plasma/Plasma.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <marker date="1589278984008" expanded="true" signature="44:312" ph="{...}" />
+            <marker date="1589278984008" expanded="true" signature="336:1622" ph="{...}" />
+            <marker date="1589278984008" expanded="true" signature="355:1611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+          <folding>
+            <marker date="1589283853960" expanded="true" signature="45:312" ph="{...}" />
+            <marker date="1589283853960" expanded="true" signature="333:2368" ph="{...}" />
+            <marker date="1589283853960" expanded="true" signature="357:2363" ph="{...}" />
+            <marker date="1589283853960" expanded="true" signature="380:2348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/brick-breaker-ar/Assets/Materials/BrickShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <marker date="1589380087463" expanded="true" signature="28:957" ph="{...}" />
+            <marker date="1589380087463" expanded="true" signature="49:327" ph="{...}" />
+            <marker date="1589380087463" expanded="true" signature="346:932" ph="{...}" />
+            <marker date="1589380087463" expanded="true" signature="365:921" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Ocean/Ocean.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
           <folding>
             <marker date="1589274284672" expanded="true" signature="22:3000" ph="{...}" />
             <marker date="1589274284672" expanded="true" signature="43:512" ph="{...}" />
@@ -341,35 +373,22 @@
     <entry file="file://$USER_HOME$/Desktop/shader_development.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="241">
-            <caret line="638" column="90" selection-start-line="638" selection-start-column="90" selection-end-line="638" selection-end-column="90" />
+          <first_editor relative-caret-position="671">
+            <caret line="536" column="19" selection-start-line="536" selection-start-column="13" selection-end-line="536" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plasma/Plasma.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/RayMarching/RayMarching.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <marker date="1589278984008" expanded="true" signature="23:1652" ph="{...}" />
-            <marker date="1589278984008" expanded="true" signature="44:312" ph="{...}" />
-            <marker date="1589278984008" expanded="true" signature="336:1622" ph="{...}" />
-            <marker date="1589278984008" expanded="true" signature="355:1611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlasmaVF/PlasmaVF.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <marker date="1589283776533" expanded="true" signature="25:2399" ph="{...}" />
-            <marker date="1589283776533" expanded="true" signature="45:312" ph="{...}" />
-            <marker date="1589283776533" expanded="true" signature="333:2370" ph="{...}" />
-            <marker date="1589283776533" expanded="true" signature="357:2365" ph="{...}" />
+            <marker date="1590160928280" expanded="true" signature="28:2043" ph="{...}" />
+            <marker date="1590160928280" expanded="true" signature="49:2041" ph="{...}" />
+            <marker date="1590160928280" expanded="true" signature="206:2035" ph="{...}" />
+            <marker date="1590160928280" expanded="true" signature="229:2020" ph="{...}" />
           </folding>
         </state>
       </provider>
